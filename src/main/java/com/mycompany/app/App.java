@@ -9,7 +9,7 @@ public class App {
 
     public App() {}
     public App(String appName) {}
-    
+    public App(String appName, String textName) {}
     public static void main(String[] args) {
         System.out.println(MESSAGE);
     }
