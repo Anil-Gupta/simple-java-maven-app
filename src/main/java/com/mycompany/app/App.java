@@ -8,7 +8,8 @@ public class App {
     private static final String MESSAGE = "Hello World!";
 
     public App() {}
-
+    public App(String appName) {}
+    
     public static void main(String[] args) {
         System.out.println(MESSAGE);
     }
